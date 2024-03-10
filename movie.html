@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>movie</title>
+    <link href="4.jpg" rel="icon">
+    
+</head>
+<style>
+    body{
+        position: relative;
+        text-align: center;
+        background-color:black;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color:#ddd;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+    header{
+       
+        background-color: rgb(39, 39, 39);
+        padding: 20px  0;
+      
+    }
+    ul, a{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 0px 20px;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 16px;
+        padding: 5px 10px
+        ;
+        border-radius: 5px;
+        transition: background-color 0.3;
+    }
+    nav ul li a:hover, nav ul li a:focus{
+        background-color: firebrick;
+    }
+    nav ul li a:focus{
+        background-color: blue;
+    }
+   footer{
+       position: fixed;
+       bottom: 0px;
+       width: 100%;
+background-color:  rgb(39, 39, 39);  }
+.f{
+    font-size: 16px;
+    font-style:italic;
+    color: black;
+    font-family: serif;
+    margin: 0px;
+    padding: 16px;
+}
+img{
+    height: 280px;
+    width: 200px;
+}
+
+
+@keyframes fade-inout{
+    0%{
+        opacity: 1;
+        
+            }
+            100%{
+                opacity: 0;
+               
+            }
+}
+.M1:hover{
+    /* animation: fade-inout 5s infinite alternate;
+    */
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+.M2:hover{
+    /* animation: fade-inout 1s infinite alternate;
+    */
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+.M3:hover{
+    /* animation: fade-inout 1s infinite alternate;
+  */
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+.M4:hover{
+    /* animation: fade-inout 1s infinite alternate;
+   */
+   animation: fadeInOut 3s ease-in-out infinite;
+}
+.M5:hover{
+    /* animation: fade-inout 1s infinite alternate;
+    */
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+.M6:hover{
+    /* animation: fade-inout 1s infinite alternate;
+     */
+     animation: fadeInOut 3s ease-in-out infinite;
+}
+.M1{
+    display: inline-block;
+    
+    background-color: rgb(39, 39, 39);
+    position: relative;
+margin-top: 100px;
+padding: 10px;
+margin-right: 20px;
+width: 250px;
+
+}
+
+.M2{
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    padding: 10px;
+    margin-left: 20px;
+    width: 250px;}
+    .M1{
+        border-style: solid;
+        border-color: white;
+    }
+    .M2{
+        border-style: solid;
+        border-color: white;
+    }
+    .M3{
+        border-style: solid;
+        border-color: white;
+    }
+    .M4{
+        border-style: solid;
+        border-color: white;
+    }
+    .M5{
+        border-style: solid;
+        border-color: white;
+    }
+    .M6{
+        border-style: solid;
+        border-color: white;
+    }
+
+.M3{
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    padding: 10px;
+    margin-left: 40px;
+    width: 250px;
+
+}
+.M4{
+   
+margin-top: 100px;
+display: inline-block;
+background-color:rgb(39, 39, 39);
+    position: relative;
+    padding: 10px;
+    margin-right: 20px;
+    width: 250px;
+
+
+
+}
+.M5{
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    padding: 10px;
+    margin-left: 20px;
+    width: 250px;
+}
+.M6{
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    padding: 10px;
+    margin-left: 40px;
+    
+    width: 250px;}
+    p{
+        color: black;
+        font-family: cursive;
+        font-size: 20px;
+    }
+    .score{
+        color: white;
+    }
+    .tneBestMovie{
+        animation: fade-inout 1s infinite alternate;
+        color:  lightseagreen;
+        font-size: 30px;
+        font-family: fantasy;
+        margin-bottom: 20px;
+    }
+    @keyframes fadeInOut{
+  0%{
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+    
+
+</style>
+<body>
+   
+   <header>
+<nav>
+    <ul>
+        <li> <a href="index.html"> 🏠  Home</a></li>
+       <li> <a href="movie.html"> 📹   movie</a></li>
+    </ul> 
+</nav>
+ </header>
+ 
+
+ <p class="tneBestMovie">    💎  the best Movies</p>
+
+ <a href="img1.html"> 
+ <div class="M1" >
+     <img src="img/9.png">
+     <a href="img2.html"> <p> ▶️  Simu-Liu-in-Shang-Chi</p></a>
+     <p class="score"> 💎 ⭐️💫  privilege : 8</p>
+ </div></div></a>
+ 
+ <a href="img2.html"> <div class="M2" >
+    <img src="img/4.jpg">
+    <a href="img2.html"> <p>  ▶️ Simu-Liu-in-Shang-Chi</p></a>
+    <p class="score">  ⭐️💫  privilege : 8</p>
+</div></a>
+<a href="img1.html"><div  class="M3">
+    <img src="img/7.png">
+    <a href="img1.html"> <p> ▶️ Simu-Liu-in-Shang-Chi</p></a>
+    <p class="score">  ⭐️💫 privilege : 8</p>
+</div></a>
+<br>
+<a href="img1.html"><div class="M4" >
+    <img src="img/5.jpg">
+    <a href="img1.html"> <p> ▶️  Simu-Liu-in-Shang-Chi</p></a>
+    <p class="score">  ⭐️💫  privilege : 8</p>
+</div></div></a>
+<a href="img1.html"><div class="M5" >
+   <img src="img/3.jpg">
+   <a href="img1.html"> <p> ▶️ Simu-Liu-in-Shang-Chi</p></a>
+   <p class="score">   ⭐️💫  privilege : 8</p>
+</div></a>
+<a href="img1.html">
+<div  class="M6">
+   <img src="img/6.jpg">
+   <a href="img1.html"> <p> ▶️ Simu-Liu-in-Shang-Chi</p></a>
+   <p class="score"> ⭐️💫  privilege : 8</p>
+</div></a>
+<br>
+<br>
+<br>
+  <br>
+  <br>
+
+<div class="pagination">
+    <a href="img1.html">&laquo;</a>
+    <a href="img2.html">1</a>
+    <a href="img3.html" class="active">2</a>
+    <a href="img1.html">3</a>
+    <a href="img2.html">4</a>
+    <a href="img3.html">5</a>
+    <a href="img1.html">6</a>
+    <a href="img2.html">&raquo;</a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+
+<footer>
+     <p class="f"> &copy; movie 2024</p>
+ </footer>
+ 
+</body>
+</html>
